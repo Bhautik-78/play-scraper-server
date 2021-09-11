@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "node starter",
+  "main": "startindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon startindex.js",
+    "doc": "apidoc -i src/ -o doc",
+    "lint": "eslint src",
+    "ci": "npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "ejs": "3.0.1",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "iso-3166-1-alpha-2": "^1.0.0",
+    "jsonwebtoken": "^8.0.0",
+    "lodash": "latest",
+    "md5": "^2.2.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.2",
+    "save": "^2.3.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "babel-eslint": "^6.1.2",
+    "cron": "^1.8.2",
+    "eslint-config-fortech": "^2.0.2",
+    "log4js": "^6.3.0"
+  }
+}
